@@ -24,7 +24,7 @@ if(organism == "human"){
       "https://zenodo.org/record/10229222/files/lr_network_human_allInfo_30112033.rds"
     )) %>% 
     mutate(
-      ligand = convert_alias_to_symbols(ligand, organism = organism), 
+      ligand = convert_alias_to_symbols(ligand, organism = organism),
       receptor = convert_alias_to_symbols(receptor, organism = organism))
   
   lr_network_all = lr_network_all  %>% 
