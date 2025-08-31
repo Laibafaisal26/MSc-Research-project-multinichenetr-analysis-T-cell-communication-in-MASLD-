@@ -48,7 +48,7 @@ if(organism == "human"){
 }
 
 # loading T cells and Endothelial object into R environment through Seurats readRDS function followed by the path to file. 
-T_cell_and_Endothelial_subset_new <- readRDS("/data/scratch/bt24974/objects/ReclusterdTCellsEndoththelialObj.rds")
+T_cell_and_Endothelial_subset_new <- readRDS("Path/to/Seurat/object")
 
 #  Some cell type names had different structures, so we used gsub to standardize them
 # by replacing spaces with underscores, reducing redundancy in downstream analysis.
