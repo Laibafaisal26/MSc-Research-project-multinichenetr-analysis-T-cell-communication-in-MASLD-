@@ -1,0 +1,12 @@
+# These packages should be downloaded before conducting multinichenetr analysis on R 
+
+library(SingleCellExperiment)
+library(dplyr)
+library(ggplot2)
+library(nichenetr)
+library(multinichenetr)
+library(nichenetr) 
+library(Seurat)
+library(SeuratObject)
+library(tidyverse)
+library(dplyr)
