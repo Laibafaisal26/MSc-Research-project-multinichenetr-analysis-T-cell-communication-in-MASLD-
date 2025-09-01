@@ -11,7 +11,7 @@ library(SeuratObject)
 library(tidyverse)
 library(dplyr)
 
-Seurat_Object <- readRDS("/data/scratch/bt24974/SeuObjx.rds")
+Seurat_Object <- readRDS("Path/to/Seurat/object")
 DefaultAssay(Seurat_Object) <- "RNA"
 
 
