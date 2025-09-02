@@ -35,11 +35,16 @@ This repository currently includes key analysis scripts and supporting files:
 ## 📂 Recommended Project Structure (Example)
 
 When running this analysis on a HPC or local environment, it is recommended that the following directory structure is used for clarity and reproducibility:
-MASLD_research_project
-├── **R_scripts # R scripts for analysis**
-├── **Seurat_objects # Input Seurat objects (.rds, not included here)**
-├── **T_cell_and_Endothelial_plots # Plots for T cell–endothelial analysis**
-└── **T_cell_and_Hepatocyte_plots # Plots for T cell–hepatocyte analysis**
+
+**MASLD_research_project**  
+├── **R_scripts**  
+│   └─ *R scripts for analysis*  
+├── **Seurat_objects**  
+│   └─ *Input Seurat objects (.rds, not included here)*  
+├── **T_cell_and_Endothelial_plots**  
+│   └─ *Plots for T cell–endothelial analysis*  
+└── **T_cell_and_Hepatocyte_plots**  
+    └─ *Plots for T cell–hepatocyte analysis*
 
 
 
