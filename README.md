@@ -24,16 +24,9 @@ It only provides analysis scripts and representative plots for documentation and
 This repository currently includes key analysis scripts and supporting files:
 
 ├── **T_cell_and_Endothelial_analysis.R**  
-│   └─ *Endothelial–T cell interaction analysis*  
-├── **T_cell_and_Hepatocyte_analysis.R**  
-│   └─ *Hepatocyte–T cell interaction analysis*  
+├── **T_cell_and_Hepatocyte_analysis.R**   
 ├── **Packages_requirement**  
-│   └─ *List of required R packages*  
 └── **Curated Ligand-receptor database for HUMAN**
-
-⚠️ **Note:** Input data (e.g. Seurat objects) and output plots are *not* included in this repository.
-
-
 
 ⚠️ Note: Input data (e.g. Seurat objects) and output plots are **not** included in this repository.  
 
@@ -43,10 +36,10 @@ This repository currently includes key analysis scripts and supporting files:
 
 When running this analysis on a HPC or local environment, it is recommended that the following directory structure is used for clarity and reproducibility:
 MASLD_research_project
-├── R_scripts # R scripts for analysis
-├── Seurat_objects # Input Seurat objects (.rds, not included here)
-├── T_cell_and_Endothelial_plots # Plots for T cell–endothelial analysis
-└── T_cell_and_Hepatocyte_plots # Plots for T cell–hepatocyte analysis
+├── **R_scripts # R scripts for analysis**
+├── **Seurat_objects # Input Seurat objects (.rds, not included here)**
+├── **T_cell_and_Endothelial_plots # Plots for T cell–endothelial analysis**
+└── **T_cell_and_Hepatocyte_plots # Plots for T cell–hepatocyte analysis**
 
 
 
